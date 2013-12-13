@@ -1,4 +1,4 @@
-import AssemblyKeys._ // put this at the top of the file
+//import AssemblyKeys._ // put this at the top of the file
 
 name := "breeze-examples"
 
@@ -29,4 +29,4 @@ credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 
 javaOptions += "-Xmx3g"
 
-seq(assemblySettings: _*)
+//seq(assemblySettings: _*)
